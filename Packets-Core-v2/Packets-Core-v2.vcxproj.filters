@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{b2a66898-b2b1-4dbb-af64-6e4d3f17ffa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dllmain">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Minhook">
+      <UniqueIdentifier>{7400d47a-82eb-4685-9db8-73411e501813}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Python pipe">
+      <UniqueIdentifier>{4611591f-0973-4782-88c8-54ed34ba1fba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetworkHook">
+      <UniqueIdentifier>{9199adbf-9823-4a1f-87cc-69c1f3699f4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MemoryReaderX86">
+      <UniqueIdentifier>{a5ccdb5b-5dc0-42ee-b76d-2e195ad9817b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CoreEngine.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkHook.h">
+      <Filter>NetworkHook</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketQueue.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryReaderX86.h">
+      <Filter>MemoryReaderX86</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\src\buffer.h">
+      <Filter>Minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\src\trampoline.h">
+      <Filter>Minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\src\hde\hde32.h">
+      <Filter>Minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\src\hde\hde64.h">
+      <Filter>Minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\src\hde\pstdint.h">
+      <Filter>Minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\src\hde\table32.h">
+      <Filter>Minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\src\hde\table64.h">
+      <Filter>Minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\include\MinHook.h">
+      <Filter>Minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryCommandReceiver.h">
+      <Filter>Python pipe</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketCaptureSender.h">
+      <Filter>Python pipe</Filter>
+    </ClInclude>
+    <ClInclude Include="ResponsePipeSender.h">
+      <Filter>Python pipe</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandPipeReceiver.h">
+      <Filter>Python pipe</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Dllmain.cpp">
+      <Filter>Dllmain</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreEngine.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkHook.cpp">
+      <Filter>NetworkHook</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketQueue.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryReaderX86.cpp">
+      <Filter>MemoryReaderX86</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\src\buffer.c">
+      <Filter>Minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\src\hook.c">
+      <Filter>Minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\src\trampoline.c">
+      <Filter>Minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\src\hde\hde32.c">
+      <Filter>Minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\src\hde\hde64.c">
+      <Filter>Minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketCaptureSender.cpp">
+      <Filter>Python pipe</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryCommandReceiver.cpp">
+      <Filter>Python pipe</Filter>
+    </ClCompile>
+    <ClCompile Include="ResponsePipeSender.cpp">
+      <Filter>Python pipe</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandPipeReceiver.cpp">
+      <Filter>Python pipe</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
