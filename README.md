@@ -69,8 +69,6 @@
   - Hook 部分支持 x86/x64。
   - **内存读取模块使用 `uint32 address`**（见 `MemoryReaderX86.*`），因此 READ_MEM 逻辑更贴近“32-bit 目标进程”。
 
-产物默认输出：`Packets-Core-v2/Release/Packets-Core-v2.dll`（仓库内已有一份）。
-
 ### 2) 注入 DLL
 
 请暂时使用processHacker或任意注入器。
